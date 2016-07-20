@@ -1,4 +1,6 @@
-
+function setup(){
+	doSetup();
+}
 
 
 function doSomething(val) {
