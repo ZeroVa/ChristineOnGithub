@@ -4,7 +4,7 @@ function setup(){
 
 
 function doSomething(val) {
-	return val + " just did something" ;
+	return val + " change this so that it says something else" ;
 }
 
 function makeMeDoSomething(){
@@ -12,5 +12,5 @@ function makeMeDoSomething(){
 }
 
 function makeSomeoneDoSomething(name){
-	return "ehh";
+	return doSomething(name);
 }
